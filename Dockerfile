@@ -4,7 +4,6 @@ RUN apt update && apt install -y \
     libportaudio2 \
     libasound2-dev \
     alsa-utils \
-    gcc \
     build-essential \
     && apt clean
 

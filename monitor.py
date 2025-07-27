@@ -4,12 +4,7 @@ import requests
 import time
 import os
 from dotenv import load_dotenv
-
-try:
-    from zoneinfo import ZoneInfo  # Python 3.9+
-except ImportError:
-    from backports.zoneinfo import ZoneInfo  # for Python <3.9
-
+from zoneinfo import ZoneInfo
 from datetime import datetime
 
 load_dotenv()

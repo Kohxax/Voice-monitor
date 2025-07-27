@@ -2,4 +2,3 @@ sounddevice
 numpy
 requests
 python-dotenv
-backports.zoneinfo
